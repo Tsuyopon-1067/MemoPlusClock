@@ -1,0 +1,6 @@
+{
+    "short_name": "MemoClock",
+    "name": "MemoPlusClock_PWA",
+    "start_url": "https://tsuyopon-1067.github.io/MemoPlusClock/",
+    "display": "standalone"
+}
