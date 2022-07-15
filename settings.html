@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>設定</title>
+    <link rel="stylesheet" href="settings.css">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+    <script async src="./variables.js"></script>
+    <script async src="./settings.js"></script>
+
+<body>
+    <div class="colorElement">
+        <p>時計文字色</p>
+        <input type="color" id="clockFontColor">
+    </div>
+    <div class="colorElement">
+        <p>日付文字色</p>
+        <input type="color" id="dateFontColor">
+    </div>
+    <div class="colorElement">
+        <p>時計背景色</p>
+        <input type="color" id="backColor">
+    </div>
+    <div class="colorElement">
+        <p>メモ文字色</p>
+        <input type="color" id="memoFontColor">
+    </div>
+    <div class="colorElement">
+        <p>メモ背景色</p>
+        <input type="color" id="memoBackColor">
+    </div>
+    <div class="colorElement">
+        <p>メモ用フォント</p>
+        <select id="memoFont">
+        </select>
+    </div>
+    <button id="applyBtn" onclick="apply()">適用</button>
+</body>
+</html>

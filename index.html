@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>時計</title>
+    <link rel="stylesheet" href="clock.css">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet">
+    <script async src="./variables.js"></script>
+    <script async src="./clock.js"></script>
+    <script async src="./memo.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="clock_area">
+            <!-- 時刻部分 -->
+            <div id="clock_time"></div>
+            <!-- 日付部分 -->
+            <div id="clock_date"></div>
+        </div>
+        <div id="memo_area">
+            <textarea id="memo" cols="" rows=""></textarea>
+            <button id="settingBtn" onclick="openSettingWindow()">設定</button>
+            <button id="saveBtn" onclick="saveMemo()">保存</button>
+        </div>
+    </div>
+</body>
+
+</html>
